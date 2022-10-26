@@ -123,8 +123,9 @@
   margin: 50px;
   padding: 20px;
   background-color: lightgrey;
-  border: none;
+  border: none; 
   position: absolute;
+  border-radius: 25px;
 }
 
 
