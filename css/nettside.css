@@ -106,7 +106,6 @@
   
 .Erik-phillip-bilde {
   display: flex;
-  border: red solid;
 }
 
 .bilde {
@@ -136,7 +135,41 @@
 }
 
 
+.konsept {
+  display: flex;
+  background-image: url(../Bilder/IMG_0214.jpeg);
+  height: 878px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  
+}
 
+.d {
+  z-index: 1;
+}
 
+#btn {
+  font-size: 22px;
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  background-image: url(../Bilder/IMG_0196.jpeg);
+  height: 878px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.teknologi {
+  display: flex;
+  background-image: url(../Bilder/IMG_0210.jpeg);
+  height: 878px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
 
 
