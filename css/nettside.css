@@ -3,23 +3,28 @@
     padding: 0;
   }
   
-  header {
+  Header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
     background-color: #24252a;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
   }
   
+  .hidden {
+    display: none;
+  }
+
+
+
   .amalieskram-tekst {
     display: flex;
     color: white;
     margin-right: auto;
     font-size: 35px;
-  }
-
-  .logo {
-    margin-right: auto;
   }
 
   .nav__links {
@@ -67,10 +72,6 @@
   
   
   
-  .menu {
-    display: none;
-  }
-
 .velkommen {
     display: flex;
     background-image: url(../Bilder/Nydelig_bakgrunnsbilde.jpeg);
@@ -83,25 +84,7 @@
 
 .Velkommen_tekst {
   display: flex;
-  border: green solid 1px;
   margin: 15px;
-}
-
-@media (max-width: 600px) {
-  header {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-
-  nav {
-    justify-content: space-between;
-  }
-
-  .cta {
-    display: none;
-    visibility: hidden;
-  }
 }
   
 .Erik-phillip-bilde {
@@ -145,9 +128,6 @@
   
 }
 
-.d {
-  z-index: 1;
-}
 
 #btn {
   font-size: 22px;
@@ -173,3 +153,32 @@
 }
 
 
+@media (max-width:600px) {
+ Header {
+  flex-direction: column;
+  padding: 1rem 0 ;
+ }
+ .hidden {
+  display: unset;
+ }
+ 
+ .shown {
+  display: none;
+ }
+
+ .amalieskram-tekst {
+  margin: 0 0 1rem 0;
+ }
+
+ .nav__links {
+  align-items: center;
+  font-size: 12px;
+ }
+
+}
+
+.powerpoint {
+  display: flex;
+  justify-content: center;
+
+}
