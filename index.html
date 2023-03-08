@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/nettside.css"> 
 
 </head>
-<body>
+<body onload="lastinn()">
     <Header>        
             <div class="amalieskram-tekst">
                 Amalie Skram VGS
@@ -23,11 +23,38 @@
             </nav>
             <a class="cta shown" href="index.html"><button>Hjem</button></a>
     </Header>
+    <div class="dag">
+        <div class="dagstid">
+           <p id="god"></p>  
+    
+        </div>
+    <script src="/JAVASCRIPT/god.js"></script> 
+       
+    </div>
     <div class="velkommen">
         <div class="bildetekst">
            Dette er en nettside om Amalie Skram og om meg.
         </div>
     </div>
+
+    <div class="list">
+<script src="/JAVASCRIPT/to-do-list.js"></script>
+   </div>
+
+<div class="list">
+    <form id="form"> 
+        To Do List <input type="text" id="listinput">
+    </form>
+    <button type="button" onclick="toDoList()">Legg til</button>
+    <p id="output"></p>
+</div>
+
+<div class="slettknapp">
+    <button type="button" onclick="slett()">slett alt</button>
+
+</div>
+
+
 
 </body>
 </html>

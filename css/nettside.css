@@ -189,3 +189,30 @@
   align-items: center;
 }
 
+
+
+
+.dag {
+flex: 1;
+display: flex ;
+align-items: center;
+justify-content: center;
+background-color: rgb(75, 124, 199);
+color: white;
+
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.slettknapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
